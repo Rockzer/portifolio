@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*
+Estilo para o conteudo do site
+*/
+html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: purple;
+	background-size: cover;
+}
+
+.bar{
+	width: 100%;
+	height: 68px;
+	margin: auto;
+	text-align: center;
+}
+
+.nav{
+	height: 68px;
+	background: rgba(0,0,0,0.2);
+}
+
+ul {
+	margin: auto;
+	width: 100%;
+	height: 25px;
+	list-style: none;
+}
+
+li {
+	margin: 26px;
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+	font-size: 16px;
+	padding: 25px 30px;
+}
+
+li a:hover {
+	transition: 1s;
+	color: black;
+	background: rgba(255,255,255,0.7);
+}
+
+.tituloi {
+	margin-left: 36%;
+	font-size: 50px;
+	color: white;
+}
+
+.subtituloi {
+	font-size: 20px;
+	color: white;
+	margin-left: 20%;
+}
+
+.texti {
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.mid{
+	width: 750px;
+	height: 590px;
+	margin-left: 20%;
+	margin-right: auto;
+	background-color: rgba(255,255,255,0.7);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	text-align: left;
+}
